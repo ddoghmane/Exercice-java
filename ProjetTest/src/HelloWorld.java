@@ -16,8 +16,7 @@ public class HelloWorld {
 		/*
 		 * ceci est mon premier programme et il marche plutot pas mal
 		 */
-		//Commentaire sur une ligne
-		 
+		// Commentaire sur une ligne
 		System.out.println("Hello World");
 	}
 

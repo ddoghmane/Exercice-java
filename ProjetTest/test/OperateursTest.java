@@ -40,8 +40,7 @@ public class OperateursTest {
 		quotient1 = 5/2;
 		System.out.println(quotient1);
 		
-		Float quotient2 = 5F/2;
-		System.out.println(quotient2);
+		
 		
 		float quotient3 = 5/2;
 		System.out.println(quotient3);
@@ -49,7 +48,13 @@ public class OperateursTest {
 		int modulo;
 		modulo = 5%2;
 		System.out.println(modulo);
-
+		
+		int nb1 = 2;
+		int nb2 = nb1++;
+		System.out.println(nb1);
+		System.out.println(nb2);
+		
+		
 	}
 
 }

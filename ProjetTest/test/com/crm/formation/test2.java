@@ -14,24 +14,25 @@ public class test2 {
 		boolean bool3 = bool1 || bool2;
 
 		System.out.println(bool3);
-		double total =0,num=1;
+		double total = 0, num = 1;
 		double pourcentage = 0.5;
-		
-		total = total+ num;
+
+		//Opérateurs d'assignement composés
+		total = total + num;
 		System.out.println(total);
-		
-		total+=num;
+
+		total += num;
 		System.out.println(total);
-		
-		total-=num;
+
+		total -= num;
 		System.out.println(total);
-		
-		total*=pourcentage;
+
+		total *= pourcentage;
 		System.out.println(total);
-		
-		total/=2;
+
+		total /= 2;
 		System.out.println(total);
-		
+
 		num %= pourcentage;
 		System.out.println(num);
 

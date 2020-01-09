@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import com.crm.api.Utils;
+
 /**
  * 
  */
@@ -19,15 +21,20 @@ public class calculpérimètrerectangle {
 		
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("veullez saisir longueur:");
+		//System.out.println("veullez saisir longueur:");
+		Utils.affichermessage("veullez saisir longueur:");
 		int lgr = sc.nextInt();
-		System.out.println("Vous avez saisi : " + lgr);
-		System.out.println("veullez saisir largeur:");
+		//System.out.println("Vous avez saisi : " + lgr);
+		Utils.affichermessage("Vous avez saisi :"+lgr);
+		//System.out.println("veullez saisir largeur:");
+		Utils.affichermessage("veullez saisir largeur:");
 		int larg = sc.nextInt();
-		System.out.println("Vous avez saisi : " + larg);
+		//System.out.println("Vous avez saisi : " + larg);
+		Utils.affichermessage("Vous avez saisi:"+larg);
 		sc.close();
 
-		perimetre = (lgr + larg) * 2;
+		//perimetre = (lgr + larg) * 2;
+		perimetre = Utils.perimetreRectangle(lgr, larg);
 		System.out.println("Le périmétre du rectangle est " + perimetre);
 
 		// Entrée longueur

@@ -19,6 +19,23 @@ public class StringTest {
 	 //test de la concaténatino
 	texte=texte+" "+"la famille";
 		System.out.println(texte);
+		//longueur d'une chaine
+		
+		String str = "  Le plus fort n'est jamais assez fort pour etre toujours le maitre  ";
+		System.out.println(str.length());
+		//Mettre en majuscule
+		String str2=str.toUpperCase();
+		System.out.println(str2);
+		//Suppression des blancs en début et fin de chaine
+		String str3 =str.trim();
+		System.out.println(str3);
+		//Remplacer des caracteres
+		String str4 = str.replace('a','e');
+		System.out.println(str4);
+		//Extraction d'une sous chaine
+		String str5 =str.substring(15);
+		System.out.println(str5);
+		
 	}
 
 }

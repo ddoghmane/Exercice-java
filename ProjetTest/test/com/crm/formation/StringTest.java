@@ -16,8 +16,8 @@ public class StringTest {
 	public static void main(String[] args) {
 		String texte = "Davai";
 		System.out.println(texte);
-	 //test de la concaténatino
-	texte=texte+" "+"la famille";
+		//test de la concaténatino
+		texte=texte+" "+"la famille";
 		System.out.println(texte);
 		//longueur d'une chaine
 		
@@ -35,6 +35,11 @@ public class StringTest {
 		//Extraction d'une sous chaine
 		String str5 =str.substring(15);
 		System.out.println(str5);
+		//Comparaison de chaines
+		String chaine1="test";
+		String chaine2="test1";
+				System.out.println(chaine1.equals(chaine2));
+				
 		
 	}
 

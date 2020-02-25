@@ -2,14 +2,26 @@ package com.crm.bo;
 
 import java.util.Date;
 
-//Attributs
+
+/**
+ * Classe represantant une personne (nom, prenom, surnom)
+ * 
+ * @author Daoud
+ * @version 1.0
+ * @since 25/02/2020
+ *
+ */
 public class Personne {
+	//Attributs
 	public String surnom;
 	private String nom;
 	private String prenom;
 	protected Date dateNaissance;
 
 	// Constructeur
+	/**
+	 * Constructeur sans paramètre
+	 */
 	public Personne() {
 		nom = "";
 		prenom = "";
@@ -63,6 +75,11 @@ public class Personne {
 		System.out.println("bienvenue " + nom + " " + prenom + " (" + surnom + ")");
 	}
 
+	/**
+	 * Affichage des infos relatives à la personne
+	 * 
+	 * @param langue langue utilisée
+	 */
 	public void afficherDetails(String langue) {
 		if (langue.equals("fr")) {
 
